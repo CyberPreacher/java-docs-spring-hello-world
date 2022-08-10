@@ -10,7 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 .
 	public static void main(String[] args) {
-		SpringApplication.run(neu.class, args);
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+@RequestMapping("/")
+	String sayHello() {
+		return "Hello Worldgg!";
 	}
 
 }
