@@ -12,6 +12,6 @@ public class neu {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!";
+		return "Hello Worldgg!";
 	}
 }
